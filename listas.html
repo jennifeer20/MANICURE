@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nuestros Productos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fcd0e9;
+            margin: 0;
+            padding: 40px 20px;
+        }
+
+        h2 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 40px;
+        }
+
+        .fila {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: flex-start;
+            gap: 40px;
+            margin-bottom: 40px;
+        }
+
+        .tarjeta {
+            background-color: rgb(234, 235, 187);
+            width: 240px;
+            padding: 20px;
+            border-radius: 25px;
+            text-align: center;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+
+        .tarjeta:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 12px 25px rgba(0,0,0,0.2);
+        }
+
+        .tarjeta img {
+            width: 160px;
+            height: 160px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin-bottom: 15px;
+        }
+
+        .nombre {
+            font-size: 18px;
+            color: #333;
+            margin: 8px 0;
+        }
+
+        .precio {
+            font-size: 20px;
+            color: #28a745;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>LISTA DE PRECIOS</h2>
+
+    <div class="fila">
+        <div class="tarjeta">
+            <img src="img/pedicure.jpg" alt="pedicure">
+            <h3 class="nombre">PEDICURE SPA</h3>
+            <p class="precio">$400.00 MXN</p>
+        </div>
+        <div class="tarjeta">
+            <img src="img/pedicure_clinico.jpg" alt="pedicure_clinico">
+            <h3 class="nombre">PIDICURE CLINICO</h3>
+            <p class="precio">$450.00 MXN</p>
+        </div>
+        <div class="tarjeta">
+            <img src="img/uñas_sotf.jpg" alt="uñas uñas_sotf">
+            <h3 class="nombre">UÑAS SOTF  GEL </h3>
+            <p class="precio">$350.00 MXN</p>
+        </div>
+    </div>
+
+    <div class="fila">
+        <div class="tarjeta">
+            <img src="img/uñas_acrilicas.jpg" alt="uñas crilicas">
+            <h3 class="nombre">UÑAS ACRILICAS</h3>
+            <p class="precio">$300.00 MXN</p>
+        </div>
+        <div class="tarjeta">
+            <img src="img/gelish.jpg" alt="gelish">
+            <h3 class="nombre">GELISH</h3>
+            <p class="precio">$340.00 MXN</p>
+        </div>
+        <div class="tarjeta">
+            <img src="img/rubber.jpg" alt="rubber">
+            <h3 class="nombre">RUBBER</h3>
+            <p class="precio">$50.00 MXN</p>
+        </div>
+    </div>
+
+    <div class="fila">
+        <div class="tarjeta">
+            <img src="img/baño_calcio.jpg" alt="baño de calcio">
+            <h3 class="nombre">BAÑO DE CALCIO</h3>
+            <p class="precio">$360.00 MXN</p>  
+        </div>
+        <div class="tarjeta">
+            <img src="img/baño_aclilico.jpg" alt="baño aclilico">
+            <h3 class="nombre">BAÑO DE ACRILICO</h3>
+            <p class="precio">$280.00 MXN</p>
+        </div>
+        <div class="tarjeta">
+            <img src="img/manicure spa.jpg" alt="manicure spa">
+            <h3 class="nombre">MANICURE</h3>
+            <p class="precio">$350.00 MXN</p>
+        </div>
+    </div>
+    <a href="index.html">inicio</a>
+
+</body>
+</html>
+

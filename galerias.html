@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <style>
+        body{
+            font-family: Arial, sans serif;
+            background-color: rgb(247, 172, 209);
+            margin: 0;
+        }
+        nav{
+            background-color: palegoldenrod;
+            padding: 15px;
+            text-align: center;
+        }
+        nav a{
+            color: rgb(172, 80, 80);
+            text-decoration: none;
+            background-color: lightpink;
+            padding: 12px 28px;
+            margin: 5px;
+            border-radius: 8px;
+            display: inline-block;
+        }
+        nav a:hover{
+        background-color: wheat;
+        color: plum;
+        
+        }
+        hi{
+            text-align: center;
+            color: pink;
+        }
+</style>
+<style>
+    body{
+        font-family: arial, sans-sefif;
+        background-color: lightpink;
+        text-align:center;
+    }
+    .galeria{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: center;
+        gap: 25px;
+        margin-top: 40px;
+    }
+    .galeria img{
+        width: 250px;
+        height: 180px;
+        object-fit: cover;
+        border-radius: 15px;
+        border: 3px solid #F08686;
+        box-shadow: 0 4px 10px #F08686;
+        transition: all 0.3s ease;
+    }
+    .galeria img:hover {
+        transform: scale(1.1);
+        border-color: rgb(224, 114, 114);
+        box-shadow: 0 10px 25px #F08686;
+        cursor: pointer;
+    }
+    </style>
+        <h1>GALERIA</h1>
+
+        <div class="galeria">
+            <img src="img/uñas4.jpg">
+            <img src="img/uñas5.jpg">
+            <img src="img/uñas6.jpg">
+            <img src="img/uñas2.jpg">
+            <img src="img/uñas1.jpg">
+            <img src="img/uñasss.jpeg">
+            <img src="img/uñas12.jpg.jpeg">
+            <img src="img/uñas.jpg">
+            <img src="img/uñassd.jpeg">
+        </div>
+        <a href="index.html">inicio</a>
+</body>
+</html>
